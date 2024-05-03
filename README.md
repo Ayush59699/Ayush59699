@@ -26,7 +26,7 @@
 <h3>Currently learning the following:</h3>
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+    <img src="https://skillicons.dev/icons?i=git,js,bash,flask,vue,sqlite" />
   </a>
 </p>
 
