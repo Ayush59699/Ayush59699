@@ -13,7 +13,7 @@
 
 - 👯 I’m looking to collaborate on **New Projects**
 
-- 📫 How to reach me **ayush0987singh@gmail.com**
+- 📫 How to reach me **21f3001194@ds.study.iitm.ac.in**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
