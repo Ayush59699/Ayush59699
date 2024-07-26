@@ -7,7 +7,9 @@
 
 <p align="left"> <a href="https://twitter.com/ayush21f3001194" target="blank"><img src="https://img.shields.io/twitter/follow/ayush21f3001194?logo=twitter&style=for-the-badge" alt="ayush21f3001194" /></a> </p>
 
-- 🔭 I’m currently working on [Music Streaming app](https://github.com/Ayush59699/Music_App)
+- 🔭 I’m currently working on [IESCP](https://github.com/Ayush59699/Influencer-Engagement-and-Sponsorship-Coordination-Platform)
+
+- 🔭 I’ve recently worked on [Music Streaming app](https://github.com/Ayush59699/Music_App)
 
 - 🌱 I’m currently learning **Meta Front End Developer Course, Python Frameworks**
 
