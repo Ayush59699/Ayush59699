@@ -12,7 +12,7 @@
 ---
 
 ### 🚀 About Me
-- 🔭 Working on **[PlugPoint](https://github.com/Ayush59699/PlugPoint)** — peer-to-peer EV charger platform  
+- 🔭 Working on **[PlugPoint](https://github.com/Ayush59699/PlugPoint)** — peer-to-peer EV charger platform and **[FTP_Server](https://github.com/Ayush59699/FTP_Server_Ayush)**  
 - 🌱 Learning **Frontend + Python Frameworks (Flask, FastAPI)**  
 - 👯 Open to collaborate on **AI, Full-Stack, Cloud projects**  
 - 📫 Reach me: **ayush0987singh@gmail.com**
