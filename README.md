@@ -20,8 +20,8 @@
 ```yaml
 class Ayush:
     location: "Vellore, India"
-    currently_building: ["PlugPoint — P2P EV Charger Platform", "FTP_Server"]
-    currently_learning: ["Advanced Frontend", "Flask", "FastAPI"]
+    currently_building: ["FTP_Server","MultiThreaded Web Crawler" ,"PlugPoint — P2P EV Charger Platform"]
+    currently_learning: ["System Design", "Machine Learning", "Distributed Systems","Agentic-AI"]
     open_to: ["AI Projects", "Full-Stack Collab", "Cloud Systems"]
     contact: "ayush0987singh@gmail.com"
     fun_fact: "Ships code faster than light-speed... occasionally with bugs 🐛"
