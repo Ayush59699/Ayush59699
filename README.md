@@ -81,7 +81,7 @@ class Ayush:
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Ayush59699&theme=radical&no-frame=true&column=7&margin-w=10&margin-h=10" alt="trophies"/>
+  <img src="./profile/trophy.svg" alt="trophies"/>
 </p>
 
 <p align="center">
