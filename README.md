@@ -68,8 +68,8 @@ class Ayush:
 <h3 align="center">📊 SYSTEM DIAGNOSTICS // GITHUB STATS</h3>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ayush59699&show_icons=true&count_private=true&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush59699&layout=compact&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&text_color=8be9fd" alt="Top Langs"/>
+  <img height="165" src="./profile/stats.svg" alt="GitHub Stats"/>
+  <img height="165" src="./profile/top-langs.svg" alt="Top Langs"/>
 </p>
 
 <p align="center">
@@ -92,16 +92,16 @@ class Ayush:
 
 <p align="center">
   <a href="https://github.com/Ayush59699/PlugPoint">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ayush59699&repo=PlugPoint&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd" />
+    <img src="./profile/pin-plugpoint.svg" />
   </a>
   <a href="https://github.com/Ayush59699/Distributed_Payment_Microservice">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ayush59699&repo=Distributed_Payment_Microservice&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd" />
+    <img src="./profile/pin-payment.svg" />
   </a>
   <a href="https://github.com/Ayush59699/Influencer-Engagement-and-Sponsorship-Coordination-Platform">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ayush59699&repo=Influencer-Engagement-and-Sponsorship-Coordination-Platform&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd" />
+    <img src="./profile/pin-influencer.svg" />
   </a>
   <a href="https://github.com/Ayush59699/Task-Agent-API">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ayush59699&repo=Task-Agent-API&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd" />
+    <img src="./profile/pin-taskagent.svg" />
   </a>
 </p>
 
@@ -112,4 +112,3 @@ class Ayush:
 <p align="center">
   <i>// End of transmission — thanks for stopping by 👽</i>
 </p>
-
