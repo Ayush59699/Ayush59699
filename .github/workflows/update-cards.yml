@@ -21,20 +21,34 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.PAT_1 }}
 
-      - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          card: top-langs
-          options: username=Ayush59699&layout=compact&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&text_color=8be9fd&hide=html,css,typescript
-          path: profile/top-langs.svg
-          token: ${{ secrets.PAT_1 }}
+          python-version: "3.11"
 
-      - name: Generate PlugPoint pin card
+      - name: Compute custom top languages (last 15 non-JS repos)
+        env:
+          GH_TOKEN: ${{ secrets.PAT_1 }}
+        run: |
+          pip install requests --quiet
+          python profile/scripts/build_top_langs.py
+
+      # --- Featured project pin cards, ranked best/most-complex first ---
+
+      - name: Generate Map-Reduce-Framework-Distributed-File-System pin card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=Ayush59699&repo=PlugPoint&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
-          path: profile/pin-plugpoint.svg
+          options: username=Ayush59699&repo=Map-Reduce-Framework-Distributed-File-System&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
+          path: profile/pin-mapreduce.svg
+          token: ${{ secrets.PAT_1 }}
+
+      - name: Generate Local-RAG-Multi-Query-Retriever pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Ayush59699&repo=Local-RAG-Multi-Query-Retriever&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
+          path: profile/pin-localrag.svg
           token: ${{ secrets.PAT_1 }}
 
       - name: Generate Distributed_Payment_Microservice pin card
@@ -45,27 +59,48 @@ jobs:
           path: profile/pin-payment.svg
           token: ${{ secrets.PAT_1 }}
 
-      - name: Generate Influencer platform pin card
+      - name: Generate Multithreaded_Web_Crawler pin card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=Ayush59699&repo=Influencer-Engagement-and-Sponsorship-Coordination-Platform&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
-          path: profile/pin-influencer.svg
+          options: username=Ayush59699&repo=Multithreaded_Web_Crawler&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
+          path: profile/pin-crawler.svg
           token: ${{ secrets.PAT_1 }}
 
-      - name: Generate Task-Agent-API pin card
+      - name: Generate Store-Intelligence-API pin card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=Ayush59699&repo=Task-Agent-API&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
-          path: profile/pin-taskagent.svg
+          options: username=Ayush59699&repo=Store-Intelligence-API-&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
+          path: profile/pin-storeapi.svg
+          token: ${{ secrets.PAT_1 }}
+
+      - name: Generate PlugPoint pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Ayush59699&repo=PlugPoint&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
+          path: profile/pin-plugpoint.svg
+          token: ${{ secrets.PAT_1 }}
+
+      - name: Generate FTP_Server_Ayush pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Ayush59699&repo=FTP_Server_Ayush&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
+          path: profile/pin-ftpserver.svg
           token: ${{ secrets.PAT_1 }}
 
       - name: Generate trophy card
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: Ayush59699
-          output_path: profile/trophy.svg
+          file: profile/trophy.svg
+          theme: radical
+          no-frame: "true"
+          margin-width: "10"
+          margin-height: "10"
+          max-cols: "7"
           token: ${{ secrets.PAT_1 }}
 
       - name: Commit cards
