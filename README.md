@@ -91,17 +91,26 @@ class Ayush:
 <h3 align="center">🚀 FEATURED PROJECTS</h3>
 
 <p align="center">
-  <a href="https://github.com/Ayush59699/PlugPoint">
-    <img src="./profile/pin-plugpoint.svg" />
+  <a href="https://github.com/Ayush59699/Map-Reduce-Framework-Distributed-File-System">
+    <img src="./profile/pin-mapreduce.svg" />
+  </a>
+  <a href="https://github.com/Ayush59699/Local-RAG-Multi-Query-Retriever">
+    <img src="./profile/pin-localrag.svg" />
   </a>
   <a href="https://github.com/Ayush59699/Distributed_Payment_Microservice">
     <img src="./profile/pin-payment.svg" />
   </a>
-  <a href="https://github.com/Ayush59699/Influencer-Engagement-and-Sponsorship-Coordination-Platform">
-    <img src="./profile/pin-influencer.svg" />
+  <a href="https://github.com/Ayush59699/Multithreaded_Web_Crawler">
+    <img src="./profile/pin-crawler.svg" />
   </a>
-  <a href="https://github.com/Ayush59699/Task-Agent-API">
-    <img src="./profile/pin-taskagent.svg" />
+  <a href="https://github.com/Ayush59699/Store-Intelligence-API-">
+    <img src="./profile/pin-storeapi.svg" />
+  </a>
+  <a href="https://github.com/Ayush59699/PlugPoint">
+    <img src="./profile/pin-plugpoint.svg" />
+  </a>
+  <a href="https://github.com/Ayush59699/FTP_Server_Ayush">
+    <img src="./profile/pin-ftpserver.svg" />
   </a>
 </p>
 
