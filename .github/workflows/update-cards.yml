@@ -25,7 +25,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=Ayush59699&layout=compact&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&text_color=8be9fd
+          options: username=Ayush59699&layout=compact&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&text_color=8be9fd&hide=html,css,typescript
           path: profile/top-langs.svg
           token: ${{ secrets.PAT_1 }}
 
