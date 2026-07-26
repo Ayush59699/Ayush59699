@@ -1,1 +1,71 @@
 
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # runs daily at 3 AM UTC
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=Ayush59699&show_icons=true&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=Ayush59699&layout=compact&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&text_color=8be9fd
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate PlugPoint pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Ayush59699&repo=PlugPoint&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
+          path: profile/pin-plugpoint.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Distributed_Payment_Microservice pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Ayush59699&repo=Distributed_Payment_Microservice&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
+          path: profile/pin-payment.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Influencer platform pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Ayush59699&repo=Influencer-Engagement-and-Sponsorship-Coordination-Platform&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
+          path: profile/pin-influencer.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Task-Agent-API pin card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Ayush59699&repo=Task-Agent-API&theme=radical&hide_border=true&bg_color=0f0c29&title_color=00f0ff&icon_color=ff00ff&text_color=8be9fd
+          path: profile/pin-taskagent.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git diff --staged --quiet || git commit -m "chore: update README stat cards"
+          git push
