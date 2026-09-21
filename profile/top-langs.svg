@@ -4,33 +4,33 @@
   <text x="20" y="48" fill="#6b6f8f" font-family="Fira Code, monospace" font-size="10">Last 15 active repos</text>
   
         <text x="20" y="66" fill="#8be9fd" font-family="Fira Code, monospace" font-size="13">Makefile</text>
-        <text x="330" y="66" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">30.9%</text>
+        <text x="330" y="66" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">29.4%</text>
         <rect x="20" y="74" width="310" height="6" rx="3" fill="#1e1b3a"/>
-        <rect x="20" y="74" width="89.6" height="6" rx="3" fill="#ff00ff"/>
+        <rect x="20" y="74" width="85.3" height="6" rx="3" fill="#ff00ff"/>
         
         <text x="20" y="100" fill="#8be9fd" font-family="Fira Code, monospace" font-size="13">Python</text>
-        <text x="330" y="100" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">21.9%</text>
+        <text x="330" y="100" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">25.6%</text>
         <rect x="20" y="108" width="310" height="6" rx="3" fill="#1e1b3a"/>
-        <rect x="20" y="108" width="63.4" height="6" rx="3" fill="#00f0ff"/>
+        <rect x="20" y="108" width="74.3" height="6" rx="3" fill="#00f0ff"/>
         
         <text x="20" y="134" fill="#8be9fd" font-family="Fira Code, monospace" font-size="13">Jupyter Notebook</text>
-        <text x="330" y="134" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">18.8%</text>
+        <text x="330" y="134" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">17.9%</text>
         <rect x="20" y="142" width="310" height="6" rx="3" fill="#1e1b3a"/>
-        <rect x="20" y="142" width="54.4" height="6" rx="3" fill="#8be9fd"/>
+        <rect x="20" y="142" width="51.8" height="6" rx="3" fill="#8be9fd"/>
         
         <text x="20" y="168" fill="#8be9fd" font-family="Fira Code, monospace" font-size="13">C++</text>
-        <text x="330" y="168" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">12.6%</text>
+        <text x="330" y="168" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">12.0%</text>
         <rect x="20" y="176" width="310" height="6" rx="3" fill="#1e1b3a"/>
-        <rect x="20" y="176" width="36.6" height="6" rx="3" fill="#ff79c6"/>
+        <rect x="20" y="176" width="34.9" height="6" rx="3" fill="#ff79c6"/>
         
         <text x="20" y="202" fill="#8be9fd" font-family="Fira Code, monospace" font-size="13">Java</text>
-        <text x="330" y="202" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">7.6%</text>
+        <text x="330" y="202" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">7.2%</text>
         <rect x="20" y="210" width="310" height="6" rx="3" fill="#1e1b3a"/>
-        <rect x="20" y="210" width="22.1" height="6" rx="3" fill="#bd93f9"/>
+        <rect x="20" y="210" width="21.0" height="6" rx="3" fill="#bd93f9"/>
         
         <text x="20" y="236" fill="#8be9fd" font-family="Fira Code, monospace" font-size="13">C</text>
-        <text x="330" y="236" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">2.8%</text>
+        <text x="330" y="236" fill="#8be9fd" font-family="Fira Code, monospace" font-size="12" text-anchor="end">2.7%</text>
         <rect x="20" y="244" width="310" height="6" rx="3" fill="#1e1b3a"/>
-        <rect x="20" y="244" width="8.2" height="6" rx="3" fill="#50fa7b"/>
+        <rect x="20" y="244" width="7.9" height="6" rx="3" fill="#50fa7b"/>
         
 </svg>
